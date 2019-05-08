@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "type": "docker",
+      "name": "test-network-infrabox",
+      "resources": {
+        "limits": {
+          "cpu": 1,
+          "memory": 512
+        }
+      },
+      "build_only": false,
+      "docker_file": "Dockerfile"
+    }
+  ]
+}
